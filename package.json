@@ -1,0 +1,16 @@
+{
+  "name": "05-clima-app",
+  "version": "1.0.0",
+  "description": "Aplicación de mapas y clima donde buscas una ciudad y retorna varios parámetros como clima, lat y long etc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Javier E. Sáez García",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.1.2"
+  }
+}
