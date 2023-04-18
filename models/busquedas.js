@@ -122,7 +122,9 @@ class Busquedas {
         const info = fs.readFileSync(this.dbPath,  {encoding:'utf-8'});
 
         if (!info) return;
+
         const data = JSON.parse(info);
+        
         this.historial = data.historial;        
         
     }
